@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 body {
+    font-family: lato, sans-serif, arial;
     min-height: 100vh;
     background: linear-gradient(45deg, #363548, #030303);
     font-size: 16px;
@@ -21,8 +22,38 @@ body {
     box-shadow: 0 0 4px 4px #00000075;
     padding: 1.5rem;
 }
+.place{
+    border: 0.1px solid white;
+    border-radius: 5px;
+    padding: 0 0.5rem;
+    font-size: 1rem;
+    font-weight: lighter;
+    background: #2e2e2e;
+    display: flex;
+    align-items: center;
+}
 .row.row-2,
 .row.row-4 {
     display: flex;
     justify-content: space-between;
+}
+.row.row-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.row.row-4 {
+    align-items: center;
+}
+.weather-icon {
+    width: 67%;
+}
+.weather-description {
+    position: relative;
+    top: -1.24rem;
+}
+.temperature {
+    cursor: pointer;
+    font-size: 2.5rem;
 }
