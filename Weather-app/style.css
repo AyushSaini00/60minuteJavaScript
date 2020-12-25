@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    background: linear-gradient(45deg, #363548, #030303);
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    color: #fff;
+    background: linear-gradient(225deg, #363548, #030303);
+    width: 20rem;
+    height: 20rem;
+    border-radius: 5px;
+    box-shadow: 0 0 4px 4px #00000075;
+    padding: 1.5rem;
+}
+.row.row-2,
+.row.row-4 {
+    display: flex;
+    justify-content: space-between;
+}
