@@ -3,6 +3,11 @@ const projects = [
         index: 1,
         name : "Binary2Decimal",
         code : "https://github.com/AyushSaini00/60minuteJavaScript/tree/main/Binary2Decimal"
+    },
+    {
+        index: 2,
+        name : "Weather-app",
+        code : "https://github.com/AyushSaini00/60minuteJavaScript/tree/main/Weather-app"
     }
 ];
 
