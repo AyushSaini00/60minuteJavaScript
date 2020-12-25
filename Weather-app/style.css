@@ -49,11 +49,19 @@ body {
 .weather-icon {
     width: 67%;
 }
-.weather-description {
-    position: relative;
-    top: -1.24rem;
-}
 .temperature {
     cursor: pointer;
     font-size: 2.5rem;
+}
+.humidity {
+    display: flex;
+    align-items: center;
+}
+
+/* https://www.flaticon.com/authors/freepik
+    Icons made by - Freepik from www.flaticon.com
+*/
+.humidity-icon {
+    width: 15%;
+    margin-right: 0.5rem;
 }
