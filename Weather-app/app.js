@@ -1,7 +1,7 @@
 //Api and other consts
 
 const myApi = {
-    //***Please use your own Api key if you're using this code****/
+    //***Please use your own Api key if you're using or referencing this code****/
     key: "24d26e86cc84b567c2140ceb9c8a7861",
     proxy : 'https://cors-anywhere.herokuapp.com/'
 };
@@ -19,7 +19,7 @@ const humidityElement = document.querySelector('.humidity');
 //Weather object in which we will store the data from the api and use that later
 const weather = {};
 weather.temperature = {
-    unit : "celsius"
+    unit : 'celsius'
 }
 
 //checks if geolocation exists in navigator (browser supports navigation)
@@ -46,12 +46,12 @@ function setPosition(position) {
 function getWeather(myLat, myLong){
     let link = `${myApi.proxy}https://api.openweathermap.org/data/2.5/weather?lat=${myLat}&lon=${myLong}&appid=${myApi.key}`;
     // console.log(link);
-    fetch(link)
-        .then(response => {
-            let data = response.json();
+    fetch(link)  //send a network request and get the information from the server
+        .then(response => { 
+            let data = response.json(); //now whatever response we get, parse it into json and store in data
             return data;
         })
-        .then(data => {
+        .then(data => { //then we update our weather object with the required data 
             // console.log(data);
             weather.temperature.value = Math.floor(data.main.temp - KELVIN);
             weather.description = data.weather[0].description;
@@ -60,7 +60,7 @@ function getWeather(myLat, myLong){
             weather.country = data.sys.country;
             weather.humidity = data.main.humidity;
         })
-        .then(() => {
+        .then(() => { //then display the weather to the ui
             displayWeather();
         });
 }
@@ -76,15 +76,16 @@ function displayWeather() {
 
 // CELSIUS TO FAHRENHEIT CONVERSION
 function celsiusToFahrenheit(temp){
-    return (9/5 * temp) + 32;
+    return ((9/5) * temp) + 32;
 }
 
 // WHEN THE USER CLICKS ON THE TEMPERATURE ELEMENET
 function toggleUnits(){
-    if(weather.temperature.value === undefined){
+    if(weather.temperature.value === undefined){ 
+        //if the valur is undefined then simply come out of the fuction
         return;
     }
-    if(weather.temperature.unit == 'celsius'){
+    if(weather.temperature.unit === 'celsius'){
         let fahrenheit = Math.floor(celsiusToFahrenheit(weather.temperature.value));
         tempElement.innerHTML = `${fahrenheit}<span>°F</span>`;
         weather.temperature.unit = 'fahrenheit';
@@ -94,4 +95,4 @@ function toggleUnits(){
     }    
 }
 
-tempElement.addEventListener('click', toggleUnits());
+tempElement.addEventListener('click', toggleUnits);
