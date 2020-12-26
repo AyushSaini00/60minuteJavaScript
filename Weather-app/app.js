@@ -44,7 +44,7 @@ function setPosition(position) {
 //GET WEATHER 
 
 function getWeather(myLat, myLong){
-    let link = `https://api.openweathermap.org/data/2.5/weather?lat=${myLat}&lon=${myLong}&appid=${myApi.key}`;
+    let link = `${myApi.proxy}https://api.openweathermap.org/data/2.5/weather?lat=${myLat}&lon=${myLong}&appid=${myApi.key}`;
     // console.log(link);
     fetch(link)
         .then(response => {
