@@ -46,13 +46,14 @@ ul {
   margin-top: 1.5rem;
 }
 ul li {
-  width: 80vmin;
+  width: 95vmin;
   background-color: var(--bg-ul);
   box-shadow: 0px 6px 45px 5px rgba(0, 0, 0, 0.2);
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   height: 3rem;
+  padding: 0 1rem;
 }
 ul li a {
   text-decoration: none;
