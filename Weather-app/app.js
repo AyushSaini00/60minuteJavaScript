@@ -2,7 +2,8 @@
 
 const myApi = {
     //***Please use your own Api key if you're using this code****/
-    key: "24d26e86cc84b567c2140ceb9c8a7861"
+    key: "24d26e86cc84b567c2140ceb9c8a7861",
+    proxy : 'https://cors-anywhere.herokuapp.com/'
 };
 const KELVIN = 273.15;
 
@@ -43,7 +44,7 @@ function setPosition(position) {
 //GET WEATHER 
 
 function getWeather(myLat, myLong){
-    let link = `http://api.openweathermap.org/data/2.5/weather?lat=${myLat}&lon=${myLong}&appid=${myApi.key}`;
+    let link = `https://api.openweathermap.org/data/2.5/weather?lat=${myLat}&lon=${myLong}&appid=${myApi.key}`;
     // console.log(link);
     fetch(link)
         .then(response => {
