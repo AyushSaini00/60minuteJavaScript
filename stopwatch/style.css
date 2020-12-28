@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    font-family: lato, sans-serif, Arial;
+    font-size: 10px;  /* 1rem = 10px */
+    min-height: 100vh;
+}
+body {
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 30rem;
+    height: 35rem;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.timer {
+    font-size: 4rem;
+    font-weight: bold;
+}
