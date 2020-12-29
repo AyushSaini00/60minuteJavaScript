@@ -8,6 +8,11 @@ const projects = [
         index: 2,
         name : "Weather-app",
         code : "https://github.com/AyushSaini00/60minuteJavaScript/tree/main/Weather-app"
+    },
+    {
+        index: 3,
+        name : "StopWatch",
+        code : "https://github.com/AyushSaini00/60minuteJavaScript/tree/main/stopwatch"
     }
 ];
 
