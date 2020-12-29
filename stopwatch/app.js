@@ -40,7 +40,7 @@ function displayInTimer(str){
 }
 
 function play(){
-    startTime = Date.now();
+    startTime = Date.now() - elapsedTime;
     timerInterval = setInterval(function printTime(){
         elapsedTime = Date.now() - startTime;
         displayInTimer(timeToString(elapsedTime));
