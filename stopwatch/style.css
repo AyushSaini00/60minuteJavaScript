@@ -27,5 +27,31 @@ body {
 }
 .timer {
     font-size: 4rem;
-    font-weight: bold;
+    font-weight: lighter;
 }
+.btn-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 15rem;
+}
+.btn {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 4rem;
+}
+.btn-svg {
+    width: 4rem;
+}
+#btn-play{
+    display: block;
+}
+#btn-pause{
+    display: none;
+}
+/*
+Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+Icons made by <a href="https://www.flaticon.com/authors/chanut" title="Chanut">Chanut</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+*/
