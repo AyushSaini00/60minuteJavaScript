@@ -10,7 +10,7 @@ body {
     min-height: 100vh;
 }
 body {
-    background-color: blueviolet;
+    background: linear-gradient(45deg, #5f5fc4, #062d25, #259f88);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,11 +19,20 @@ body {
 .container {
     width: 30rem;
     height: 35rem;
-    background: white;
+    background: #eeeeee;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 0 8px 4px rgba(0,0,0,0.4);
+    padding: 2rem;
+}
+.timer-box {
+    background: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 1rem;
 }
 .timer {
     font-size: 4rem;
