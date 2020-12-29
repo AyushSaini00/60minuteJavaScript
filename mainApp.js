@@ -11,7 +11,7 @@ const projects = [
     },
     {
         index: 3,
-        name : "StopWatch",
+        name : "stopwatch",
         code : "https://github.com/AyushSaini00/60minuteJavaScript/tree/main/stopwatch"
     }
 ];
