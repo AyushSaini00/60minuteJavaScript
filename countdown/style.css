@@ -37,7 +37,19 @@ body {
     border-radius: 0.5rem;
     text-align: center;
 }
+.timer-wrapper {
+    display: flex;
+}
+.col {
+    margin: 0 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .timer {
-    font-size: 7rem;
+    font-size: 4rem;
     font-weight: lighter;
+}
+.timer > span {
+    font-size: 1rem;
 }
