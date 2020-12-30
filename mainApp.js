@@ -13,6 +13,11 @@ const projects = [
         index: 3,
         name : "stopwatch",
         code : "https://github.com/AyushSaini00/60minuteJavaScript/tree/main/stopwatch"
+    },
+    {
+        index: 4,
+        name : "countdown",
+        code : "https://github.com/AyushSaini00/60minuteJavaScript/tree/main/countdown"
     }
 ];
 
