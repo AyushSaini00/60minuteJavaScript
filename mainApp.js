@@ -19,6 +19,12 @@ const projects = [
         name : "countdown",
         code : "https://github.com/AyushSaini00/60minuteJavaScript/tree/main/countdown"
     }
+    },
+    {
+        index: 5,
+        name : "Random-Color-Generator",
+        code : "https://github.com/AyushSaini00/60minuteJavaScript/tree/main/countdown"
+    }
 ];
 
 const list = document.querySelector('.list');
