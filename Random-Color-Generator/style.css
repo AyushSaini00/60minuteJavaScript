@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    font-size: 10px; /* 1rem = 10px */
+    font-family: 'lato', Arial, sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rgb-value{
+    text-align: center;
+    font-size: 5rem;
+}
+.how-to {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
