@@ -14,9 +14,16 @@ body{
     justify-content: center;
     align-items: center;
 }
-.rgb-value{
+.container {
+    background: #000;
+    border-radius: 1rem;
+    padding: 1.2rem 2.5rem;
+    color: white;
+    min-width: 26rem;
+}
+.hex-value{
     text-align: center;
-    font-size: 5rem;
+    font-size: 4rem;
 }
 .how-to {
     text-align: center;
