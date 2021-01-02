@@ -101,12 +101,12 @@ body {
 .container .second {
   width: 0.2rem;
   height: 13rem;
-  background-color: #82a8d0;
+  background-color: #ff8f00;
 }
 .container::after {
   content: "";
   position: absolute;
-  background-color: #1d74c2;
+  background-color: #e6d447;
   z-index: 11;
   width: 2rem;
   height: 2rem;
