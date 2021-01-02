@@ -23,6 +23,11 @@ const projects = [
         index: 5,
         name : "Random-Color-Generator",
         code : "https://github.com/AyushSaini00/60minuteJavaScript/tree/main/Random-Color-Generator"
+    },
+    {
+        index: 6,
+        name : "Analog-clock",
+        code : "https://github.com/AyushSaini00/60minuteJavaScript/tree/main/Analog-clock"
     }
 ];
 
