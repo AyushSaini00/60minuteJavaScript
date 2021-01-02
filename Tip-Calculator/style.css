@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+html,
+body {
+    font-size: 10px;
+    font-family: 'lato', Helvetica, Arial, sans-serif;
+}
+body {
+    min-height: 100vh;
+    background: linear-gradient(45deg, #ac3053, #41c0d5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2f2d2d;
+}
+.container {
+    width: 30rem;
+    height: 50rem;
+    background: rgba(255,255,255,.4);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.title {
+    font-style: italic;
+    font-size: 2.3rem;
+}
+.row {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    font-size: 1.7rem;
+    margin-bottom: 0.5rem;
+}
+.bill-amount {
+    appearance: none;
+    width: 12rem;
+    height: 3rem;
+    border-radius: 5px;
+    border: 1px solid #0010ff;
+}
+#tip-percentage {
+    align-self: end;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#split-value {
+    align-self: end;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.per-person {
+    background: rgba(11, 190, 232, 0.4);
+    border-radius: 1rem;
+    padding: 1.5rem 3rem;
+}
+.text {
+    font-size: 2rem;
+}
+.money {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.row-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.row-2 {
+    display: flex;
+    justify-content: space-between;
+}
+.text-2 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+.money-2 {
+    font-size: 1.7rem;
+    font-weight: bold;
+}
