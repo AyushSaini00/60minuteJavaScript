@@ -22,14 +22,14 @@ body {
 }
 .container {
     width: 30rem;
-    height: 50rem;
+    height: 48rem;
     background: rgba(255,255,255,.4);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    padding: 1rem 1rem 0 1rem;
 }
 .title {
     font-style: italic;
@@ -49,6 +49,7 @@ label {
     height: 3rem;
     border-radius: 5px;
     border: 1px solid #0010ff;
+    text-align: center;
 }
 #tip-percentage {
     align-self: end;
@@ -62,7 +63,7 @@ label {
 }
 .per-person {
     background: rgba(11, 190, 232, 0.4);
-    border-radius: 1rem;
+    border-radius: 1rem 1rem 0 0;
     padding: 1.5rem 3rem;
 }
 .text {
