@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html,
+body {
+  font-size: 10px;
+  font-family: "lato", Arial, sans-serif;
+}
+body {
+  background: #d1dbe3;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 33rem;
+  height: 33rem;
+  background: #d1dbe3;
+  border-radius: 50%;
+  position: relative; /*so that i can postition inside divs relative to the container*/
+  box-shadow: 0 -1.2em 1.2em rgba(255, 255, 255, 0.06),
+    inset 0 -1.2em 1.2em rgba(255, 255, 255, 0.06),
+    0 1.2em 1.2em rgba(0, 0, 0, 0.3), inset 0 1.2em 1.2em rgba(0, 0, 0, 0.3);
+}
+.container .number {
+  --rotateAngle: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transform: rotate(var(--rotateAngle));
+  font-size: 2.5rem;
+  padding: 0.5rem;
+}
+.container .number1 {
+  --rotateAngle: 30deg;
+}
+.container .number2 {
+  --rotateAngle: 60deg;
+}
+.container .number3 {
+  --rotateAngle: 90deg;
+}
+.container .number4 {
+  --rotateAngle: 120deg;
+}
+.container .number5 {
+  --rotateAngle: 150deg;
+}
+.container .number6 {
+  --rotateAngle: 180deg;
+}
+.container .number7 {
+  --rotateAngle: 210deg;
+}
+.container .number8 {
+  --rotateAngle: 240deg;
+}
+.container .number9 {
+  --rotateAngle: 270deg;
+}
+.container .number10 {
+  --rotateAngle: 300deg;
+}
+.container .number11 {
+  --rotateAngle: 330deg;
+}
+
+.container .hand {
+  background-color: black;
+  width: 10px;
+  height: 40px;
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform: translateX(
+    -50%
+  ); /*translate the object backwards 50% of its width*/
+  transform-origin: bottom;
+  z-index: 10; /*so that hand always comes on the top of numbers*/
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+.container .hour {
+  width: 1rem;
+  height: 8rem;
+  background-color: #fb1163;
+}
+.container .minute {
+  width: 0.5rem;
+  height: 11rem;
+  background-color: #101f25;
+}
+.container .second {
+  width: 0.2rem;
+  height: 13rem;
+  background-color: #82a8d0;
+}
+.container::after {
+  content: "";
+  position: absolute;
+  background-color: #1d74c2;
+  z-index: 11;
+  width: 2rem;
+  height: 2rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
