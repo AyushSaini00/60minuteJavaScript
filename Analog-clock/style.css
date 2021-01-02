@@ -73,6 +73,22 @@ body {
   --rotateAngle: 330deg;
 }
 
+.container .number .undo {
+    --undoAngle : 0;
+    transform: rotate(var(--undoAngle));
+}
+.container .number1 .undo { --undoAngle : -30deg; }
+.container .number2 .undo { --undoAngle : -60deg; }
+.container .number3 .undo { --undoAngle : -90deg; }
+.container .number4 .undo { --undoAngle : -120deg; }
+.container .number5 .undo { --undoAngle : -150deg; }
+.container .number6 .undo { --undoAngle : -180deg; }
+.container .number7 .undo { --undoAngle : -210deg; }
+.container .number8 .undo { --undoAngle : -240deg; }
+.container .number9 .undo { --undoAngle : -270deg; }
+.container .number10 .undo { --undoAngle : -300deg; }
+.container .number11 .undo { --undoAngle : -330deg; }
+
 .container .hand {
   background-color: black;
   width: 10px;

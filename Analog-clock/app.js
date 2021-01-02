@@ -16,9 +16,10 @@ function getAngle(){
     let secHandRotation = 6*seconds;
 
     //now rotate the hands
-    hourHand.style.transform = `rotate(${hrHandRotation}deg)`;
-    minuteHand.style.transform = `rotate(${minHandRotation}deg)`;
-    secondHand.style.transform = `rotate(${secHandRotation}deg)`;
+    //adding translateX here otherwise only rotate works
+    hourHand.style.transform = `rotate(${hrHandRotation}deg) translateX(-50%)`;
+    minuteHand.style.transform = `rotate(${minHandRotation}deg) translateX(-50%)`;
+    secondHand.style.transform = `rotate(${secHandRotation}deg) translateX(-50%)`;
 }
 
 getAngle(); //to start the clock as soon as page loads otherwise it jumps to current time abruptly form 12
