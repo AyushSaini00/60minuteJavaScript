@@ -40,6 +40,11 @@ body {
     flex-direction: column;
     position: relative;
 }
+.tip-total {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+}
 label {
     font-size: 1.7rem;
     margin-bottom: 0.5rem;
@@ -99,7 +104,8 @@ label {
 .per-person {
     background: rgba(11, 190, 232, 0.4);
     border-radius: 1rem 1rem 0 0;
-    padding: 1.5rem 3rem;
+    padding: 1.5rem 2rem;
+    width: 22rem;
 }
 .text {
     font-size: 2rem;
