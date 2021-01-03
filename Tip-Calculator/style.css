@@ -52,12 +52,49 @@ label {
     border: 1px solid #0010ff;
     text-align: center;
 }
+#rupee-symbol {
+    position: absolute;
+    bottom: 0;
+    left: -2rem;
+    font-size: 2.5rem;
+}
 #tip-percentage,
 #split-value {
     font-size: 1.7rem;
     font-weight: bold;
     position: absolute;
     right: 0;
+}
+.slider {
+    -webkit-appearance: none;
+    appearance: none;
+    background: rgb(255, 52, 113);
+    opacity: 0.5;
+    height: 1rem;
+    margin-top: 1rem;
+    outline: none;
+    border-radius: 5px;
+    -webkit-transition: .2s;
+    transition: opacity 0.2s;
+}
+.slider:hover {
+    opacity: 0.8;
+}
+.slider::-webkit-slider-thumb {
+    cursor: pointer;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 2rem;
+    height: 2rem;
+    background-color: #3ab4e6;
+    border-radius: 50%;
+}
+.slider::-moz-range-thumb {
+    width: 2rem;
+    height: 2rem;
+    background-color: #3ab4e6;
+    cursor: pointer;
+    border-radius: 50%;
 }
 .per-person {
     background: rgba(11, 190, 232, 0.4);
