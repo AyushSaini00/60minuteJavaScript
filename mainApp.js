@@ -28,6 +28,11 @@ const projects = [
         index: 6,
         name : "Analog-clock",
         code : "https://github.com/AyushSaini00/60minuteJavaScript/tree/main/Analog-clock"
+    },
+    {
+        index: 7,
+        name : "Tip-Calculator",
+        code : "https://github.com/AyushSaini00/60minuteJavaScript/tree/main/Tip-Calculator"
     }
 ];
 
