@@ -38,6 +38,7 @@ body {
 .row {
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 label {
     font-size: 1.7rem;
@@ -51,15 +52,12 @@ label {
     border: 1px solid #0010ff;
     text-align: center;
 }
-#tip-percentage {
-    align-self: end;
-    font-size: 1.5rem;
-    font-weight: bold;
-}
+#tip-percentage,
 #split-value {
-    align-self: end;
-    font-size: 1.3rem;
+    font-size: 1.7rem;
     font-weight: bold;
+    position: absolute;
+    right: 0;
 }
 .per-person {
     background: rgba(11, 190, 232, 0.4);
