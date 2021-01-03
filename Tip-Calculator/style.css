@@ -76,6 +76,7 @@ label {
     background: rgb(255, 52, 113);
     opacity: 0.5;
     height: 1rem;
+    width: 25rem;
     margin-top: 1rem;
     outline: none;
     border-radius: 5px;
