@@ -3,10 +3,10 @@ const weightElem = document.getElementById('weight');
 const heightElem = document.getElementById('height');
 const bmiElem = document.querySelector('.bmi');
 const descElem = document.querySelector('.desc');
+const bmiCategoryElem = document.querySelector('.bmi-category');
 const container = document.querySelector('.container');
 
 //CALCULATING BMI
-
 let bmiMetric;
 function calcBMI(){
     let weight = weightElem.value;
@@ -19,21 +19,31 @@ function calcBMI(){
 //DESCRIPTION ACCORDING TO BMI CATEGORY
 function checkCategory(value){
     if(value >= 30.0){
+        bmiCategoryElem.style.color = '#b00';
         return `Obese`;
     }else if(value >= 25.0 && value <= 29.9){
+        bmiCategoryElem.style.color = '#8a4f02';
         return `Overweight`;
     }else if(value >= 18.5 && value <= 24.9){
+        bmiCategoryElem.style.color = '#2ca1bc';
         return `Normal`;
     }else if(value <= 18.4) {
+        bmiCategoryElem.style.color = '#625301';
         return `Underweight`;
+    }else {
+        bmiCategoryElem.style.color = 'black';
+        return `Category`;
     }
 }
 
 //UPDATING UI
 function updateUI(){
     calcBMI();
-    bmiElem.innerHTML = bmiMetric;
-    descElem.innerHTML = checkCategory(bmiMetric);
+    //checks if bmiMetric is finite or not (NaN , infinity)
+    if(isFinite(bmiMetric)){
+        bmiElem.innerHTML = bmiMetric;
+    }
+    bmiCategoryElem.innerHTML = checkCategory(bmiMetric);
 }
 
 //WHENEVER USER INPUTS SOMETHING IN THE CONTAINER, INVOKE UPDATEUI FUNCTION
