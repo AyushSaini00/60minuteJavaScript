@@ -33,6 +33,11 @@ const projects = [
         index: 7,
         name : "Tip-Calculator",
         code : "https://github.com/AyushSaini00/60minuteJavaScript/tree/main/Tip-Calculator"
+    },
+    {
+        index: 8,
+        name : "BMI-Calculator",
+        code : "https://github.com/AyushSaini00/60minuteJavaScript/tree/main/BMI-Calculator"
     }
 ];
 
