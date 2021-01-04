@@ -10,9 +10,9 @@ function getAngle(){
     let minutes = today.getMinutes();
     let seconds = today.getSeconds();
 
-    // angle of rotation of hands (ignoring the rotation by seconds in hr and min hand)
-    let hrHandRotation = 30*hours + minutes/2;
-    let minHandRotation = 6*minutes;
+    // angle of rotation of hands 
+    let hrHandRotation = 30*hours + minutes/2 + seconds/120;
+    let minHandRotation = 6*minutes + seconds/10;
     let secHandRotation = 6*seconds;
 
     //now rotate the hands
