@@ -28,6 +28,7 @@ body {
   box-shadow: 0 -1.2em 1.2em rgba(255, 255, 255, 0.06),
     inset 0 -1.2em 1.2em rgba(255, 255, 255, 0.06),
     0 1.2em 1.2em rgba(0, 0, 0, 0.3), inset 0 1.2em 1.2em rgba(0, 0, 0, 0.3);
+  border: 0.4rem dashed #fb1163;  
 }
 .container .number {
   --rotateAngle: 0;
@@ -37,7 +38,7 @@ body {
   text-align: center;
   transform: rotate(var(--rotateAngle));
   font-size: 2.5rem;
-  padding: 0.5rem;
+  padding: 0.7rem;
 }
 .container .number1 {
   --rotateAngle: 30deg;
@@ -96,9 +97,7 @@ body {
   position: absolute;
   bottom: 50%;
   left: 50%;
-  transform: translateX(
-    -50%
-  ); /*translate the object backwards 50% of its width*/
+  /*transform: translateX(-50%); translate the object backwards 50% of its width*/
   transform-origin: bottom;
   z-index: 10; /*so that hand always comes on the top of numbers*/
   border-top-left-radius: 1rem;
@@ -116,7 +115,7 @@ body {
 }
 .container .second {
   width: 0.2rem;
-  height: 13rem;
+  height: 12.4rem;
   background-color: #ff8f00;
 }
 .container::after {
