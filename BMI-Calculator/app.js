@@ -18,21 +18,23 @@ function calcBMI(){
 
 //DESCRIPTION ACCORDING TO BMI CATEGORY
 function checkCategory(value){
-    if(value >= 30.0){
-        bmiCategoryElem.style.color = '#b00';
-        return `Obese`;
-    }else if(value >= 25.0 && value <= 29.9){
-        bmiCategoryElem.style.color = '#8a4f02';
-        return `Overweight`;
-    }else if(value >= 18.5 && value <= 24.9){
-        bmiCategoryElem.style.color = '#2ca1bc';
-        return `Normal`;
-    }else if(value <= 18.4) {
-        bmiCategoryElem.style.color = '#625301';
-        return `Underweight`;
+    if(isFinite(value)){
+        if(value >= 30.0){
+            bmiCategoryElem.style.color = '#b00';
+            return `Obese`;
+        }else if(value >= 25.0 && value <= 29.9){
+            bmiCategoryElem.style.color = '#8a4f02';
+            return `Overweight`;
+        }else if(value >= 18.5 && value <= 24.9){
+            bmiCategoryElem.style.color = '#2ca1bc';
+            return `Normal`;
+        }else if(value <= 18.4) {
+            bmiCategoryElem.style.color = '#625301';
+            return `Underweight`;
+        }
     }else {
         bmiCategoryElem.style.color = 'black';
-        return `Category`;
+        return ``;
     }
 }
 
