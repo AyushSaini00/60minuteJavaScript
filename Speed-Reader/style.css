@@ -44,6 +44,10 @@ body {
     margin: 0 1rem;
     padding: 0.8rem 1.2rem;
     width: 6rem;
+    transition: ease-in-out 0.2s;
+}
+.btn:hover {
+    background: #d0cfcf;
 }
 .reader-wrapper {
     background: #040000;

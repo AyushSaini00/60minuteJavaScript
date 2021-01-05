@@ -9,10 +9,10 @@ let words, speed, current, interval;
 //Event listener
 document.addEventListener('click', clickHandler);
 
-function clickHandler(event){
+function clickHandler(event){ //passing the event object
     startReader(event);
     stopReader(event);
-    pauseReader(event);
+    // pauseReader(event);
 }
 
 //Start the Reader
@@ -49,14 +49,11 @@ function stopReader(event){
         return;
 
     end();
-    readerElem.textContent = `Click on Start`;
 }
 
-//Pause the Reader
-function pauseReader(event){
-    //only run on #pause button
-    if(event.target.id !== 'pause')
-        return;
+function end(){
+    //clear the interval
+    clearInterval(interval);
 }
 
 function run(){
@@ -74,10 +71,6 @@ function run(){
 
         //go to next word
         current++;
-    }, speed);
-}
 
-function end(){
-    //clear the interval
-    clearInterval(interval);
+    }, speed);
 }
