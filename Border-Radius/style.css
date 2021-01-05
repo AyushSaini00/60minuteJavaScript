@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+html,
+body {
+    font-size: 10px;
+    font-family: 'lato', Arial, Helvetica, sans-serif;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: #000022; */
+}
+.container {
+    width: 30rem;
+    height: 50rem;
+    background: #ba80ff;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.title {
+    font-size: 2.5rem;
+}
+.generator-wrapper {
+    width: 25rem;
+    height: 25rem;
+    border: 2px dashed rgba(0, 0, 0, 0.4);
+    position: relative;
+}
+.shape {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg,#ff008f, red);
+}
+.slider {
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    background-color: #fff;
+    transform: translateX(-50%);
+    border: 2px solid black;
+    position: absolute;
+}
+#left {
+    top: 8rem;
+}
+#top {
+    top: 0;
+    left: 14rem;
+    transform: translateY(-50%);
+}
+#right {
+    top: 8rem;
+}
+#bottom {
+    top: 8rem;
+}
+.output-wrapper {
+    font-size: 2.3rem;
+    width: 25rem;
+    margin-top: 2rem;
+}
+.property-name {
+    margin-bottom: 1rem;
+}
+.code {
+    background: #0003;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.copy {
+    border: none;
+    width: 100%;
+    height: 4rem;
+    font-size: 1.9rem;
+    background: #ff0e38;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+}
+.copy:hover {
+    box-shadow: 0 0 6px 3px rgba(125, 35, 234, 0.4);
+}
