@@ -33,7 +33,7 @@ header {
   width: 20rem;
   margin: 0 auto;
   border-radius: 5px;
-  margin-top: 1rem;
+  margin-top: 4.6rem;
   background-color: rgba(0, 255, 183, 0.6);
   backdrop-filter: blur(3px);
   --webkit-backdrop-filter: blur(3px);
@@ -45,7 +45,6 @@ header {
 header h1 > span {
   color: #000000;
   background-color: #fffb00;
-  border-radius: 5px;
 }
 ul {
   list-style-type: none;
