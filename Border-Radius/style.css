@@ -61,6 +61,8 @@ body {
 }
 #left {
     top: 60%;
+    left: -1.2rem;
+    transform: translateY(-50%);
 }
 #top {
     left: 20%;
@@ -74,13 +76,17 @@ body {
 }
 #bottom {
     left: 40%;
-    transform: translateY(50%);
     bottom: 0;
+    transform: translateY(50%);
+}
+#ranger {
+    width: 25rem;
+    margin-top: 1rem;
 }
 .output-wrapper {
     font-size: 2.3rem;
     width: 25rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 .property-name {
     margin-bottom: 1rem;
