@@ -43,6 +43,11 @@ const projects = [
         index: 9,
         name : "Speed-Reader",
         code : "https://github.com/AyushSaini00/60minuteJavaScript/tree/main/Speed-Reader"
+    },
+    {
+        index: 10,
+        name : "Box-Shadow-Generator",
+        code : "https://github.com/AyushSaini00/60minuteJavaScript/tree/main/Box-Shadow-Generator"
     }
 ];
 
