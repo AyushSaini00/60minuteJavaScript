@@ -1,51 +1,51 @@
 const projects = [
     {
-        index: 1,
+        index: '01',
         name : "Binary2Decimal",
         code : "https://github.com/AyushSaini00/60minuteJavaScript/tree/main/Binary2Decimal"
     },
     {
-        index: 2,
+        index: '02',
         name : "Weather-app",
         code : "https://github.com/AyushSaini00/60minuteJavaScript/tree/main/Weather-app"
     },
     {
-        index: 3,
+        index: '03',
         name : "stopwatch",
         code : "https://github.com/AyushSaini00/60minuteJavaScript/tree/main/stopwatch"
     },
     {
-        index: 4,
+        index: '04',
         name : "countdown",
         code : "https://github.com/AyushSaini00/60minuteJavaScript/tree/main/countdown"
     },
     {
-        index: 5,
+        index: '05',
         name : "Random-Color-Generator",
         code : "https://github.com/AyushSaini00/60minuteJavaScript/tree/main/Random-Color-Generator"
     },
     {
-        index: 6,
+        index: '06',
         name : "Analog-clock",
         code : "https://github.com/AyushSaini00/60minuteJavaScript/tree/main/Analog-clock"
     },
     {
-        index: 7,
+        index: '07',
         name : "Tip-Calculator",
         code : "https://github.com/AyushSaini00/60minuteJavaScript/tree/main/Tip-Calculator"
     },
     {
-        index: 8,
+        index: '08',
         name : "BMI-Calculator",
         code : "https://github.com/AyushSaini00/60minuteJavaScript/tree/main/BMI-Calculator"
     },
     {
-        index: 9,
+        index: '09',
         name : "Speed-Reader",
         code : "https://github.com/AyushSaini00/60minuteJavaScript/tree/main/Speed-Reader"
     },
     {
-        index: 10,
+        index: '10',
         name : "Box-Shadow-Generator",
         code : "https://github.com/AyushSaini00/60minuteJavaScript/tree/main/Box-Shadow-Generator"
     }
