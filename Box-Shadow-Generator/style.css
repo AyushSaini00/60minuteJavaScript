@@ -31,17 +31,10 @@ body {
     padding: 1rem;
 }
 .box {
-    /* --h-offset : 0;
-    --v-offset : 0;
-    --blur : 10px;
-    --spread : 10px;
-    --color : #f0f;
-    --opacity : 0.50;
-    --inset : inset;
-    box-shadow:  var(--h-offset) var(--v-offset) var(--blur) var(--spread) var(--color) var(--opacity) var(--inset); */
-    box-shadow: -12px -1px 217px -200px rgba(23,255,117,0) inset;
-    border: 1px solid red;
+    background: #5c0275;
+    color: white;
     padding: 2rem 3.5rem;
+    box-shadow: 0 0 10px 10px rgb(226, 102, 30);
 }
 .properties-wrapper {
     font-size: 1.5rem;
@@ -60,7 +53,7 @@ body {
     font-size: 1.5rem;
     font-family: monospace;
     max-width: 40rem;
-    min-height: 12rem;
+    height: 14rem;
     background: #333333;
     color: #ffffff;
     border-radius: 0.5rem;
