@@ -48,6 +48,11 @@ const projects = [
         index: '10',
         name : "Box-Shadow-Generator",
         code : "https://github.com/AyushSaini00/60minuteJavaScript/tree/main/Box-Shadow-Generator"
+    },
+    {
+        index: '11',
+        name : "Password-Generator",
+        code : "https://github.com/AyushSaini00/60minuteJavaScript/tree/main/Password-Generator"
     }
 ];
 
