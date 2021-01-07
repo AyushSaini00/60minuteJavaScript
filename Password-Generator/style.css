@@ -29,6 +29,10 @@ body {
     padding: 2rem;
     min-height: 35rem;
 }
+.title {
+    width: 71%;
+    text-align: center;
+}
 .desc-title {
     font-size: 1.6rem;
     text-align: left;
