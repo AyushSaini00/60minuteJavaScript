@@ -20,6 +20,8 @@ function getAngle(){
 function updateUI(){
     color1Elem.innerText = getHEX();
     color2Elem.innerText = getHEX();
+    color1Elem.style.background = color1Elem.innerText;
+    color2Elem.style.background = color2Elem.innerText;
     codeElem.innerText = `background: linear-gradient(${getAngle()}deg, ${color1Elem.innerText}, ${color2Elem.innerText});`;
     document.body.style.background = `linear-gradient(${getAngle()}deg, ${color1Elem.innerText}, ${color2Elem.innerText})`;
 }
