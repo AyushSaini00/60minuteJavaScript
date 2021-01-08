@@ -38,6 +38,12 @@ body {
     width: 12rem;
     text-align: center;
 }
+.btn {
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    font-size: 3rem;
+}
 .output {
     font-size: 1.7rem;
     background: black;
@@ -45,10 +51,9 @@ body {
     border-radius: 0.5rem;
     padding: 3rem;
     width: 50rem;
-}
-.slider {
-    width: 100%;
-}
-.code {
     text-align: center;
+}
+.info {
+    font-size: 3rem;
+    margin-bottom: 10rem;
 }
