@@ -53,6 +53,11 @@ const projects = [
         index: '11',
         name : "Password-Generator",
         code : "https://github.com/AyushSaini00/60minuteJavaScript/tree/main/Password-Generator"
+    },
+    {
+        index: '12',
+        name : "Random-Linear-Gradient",
+        code : "https://github.com/AyushSaini00/60minuteJavaScript/tree/main/Random-Linear-Gradient"
     }
 ];
 
