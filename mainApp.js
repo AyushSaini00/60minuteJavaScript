@@ -63,6 +63,11 @@ const projects = [
         index: '13',
         name : "Quotes-Generator",
         code : "https://github.com/AyushSaini00/60minuteJavaScript/tree/main/Quotes-Generator"
+    },
+    {
+        index: '14',
+        name : "HTML-Canvas",
+        code : "https://github.com/AyushSaini00/60minuteJavaScript/tree/main/HTML-Canvas"
     }
 ];
 
