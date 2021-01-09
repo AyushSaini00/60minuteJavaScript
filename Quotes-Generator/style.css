@@ -20,15 +20,12 @@ body {
     align-items: center;
 }
 .container {
-    padding: 4rem;
+    padding: 3.5rem;
     max-width: 70rem;
 }
 .quote {
     font-size: 3rem;
     margin-bottom: 3rem;
-}
-.mark {
-    font-size: 10rem;
 }
 .author {
     font-size: 2rem;
