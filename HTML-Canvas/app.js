@@ -1,4 +1,6 @@
 const canvas = document.getElementById('canvas');
+const colorElement = document.getElementById('color');
+const rangeElement = document.getElementById('range');
 
 function getCanvas(){
 
@@ -7,7 +9,7 @@ function getCanvas(){
         const ctx = canvas.getContext('2d');
 
         //resize the canvas according to dimensions of window
-        resizing();
+        // resizing();
 
         //flag variable
         let painting = false;
@@ -26,9 +28,9 @@ function getCanvas(){
             //if not painting , then return
             if(!painting) return;
     
-            ctx.lineWidth = 10;
+            ctx.lineWidth = rangeElement.value;
             ctx.lineCap = 'round';
-            ctx.strokeStyle = 'green';        
+            ctx.strokeStyle = colorElement.value;       
 
             ctx.lineTo(event.clientX, event.clientY);
             ctx.stroke();
