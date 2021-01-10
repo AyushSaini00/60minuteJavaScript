@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="./style.css" type="text/css">
+</head>
+<body>
+    <form action="/" method="GET" id="form">
+        <h1 class="title">Create Account</h1>
+        <div class="row">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter Name">
+        </div>
+        <div class="row">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Enter E-mail">
+        </div>
+        <div class="row">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="Enter Password">
+        </div>
+        <div class="row">
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" name="confirm-password" id="confirm-password" placeholder="Enter Password Again">
+        </div>
+        <button type="submit" id="btn">Sign up</button>
+        <div class="tNc">
+            <input type="checkbox" name="terms" id="terms">
+            <label for="terms">I have read and agree to the Terms of Service</label>
+        </div>
+    </form>
+
+    <script src="./app.js" type="text/javascript"></script>
+</body>
+</html>
