@@ -17,6 +17,7 @@ body {
 .container {
     display: flex;
     flex-direction: column;
+    text-align: center;
     height: 40rem;
     min-width: 30rem;
     align-items: center;
@@ -37,4 +38,8 @@ body {
 }
 .container .age > span {
     font-weight: bold;
+}
+.error {
+    display: none;
+    font-size: 4rem;
 }
