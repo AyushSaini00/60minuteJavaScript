@@ -22,7 +22,7 @@ body {
 #form {
     background: var(--bg-form);
     width: 34rem;
-    height: 45rem;
+    height: 49rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,19 +32,40 @@ body {
 }
 .title {
     font-weight: bold;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
 }
 .row {
     display: grid;
     font-size: 1.4rem;
     width: 24rem;
+    height: 6.6rem;
     margin-bottom: 2rem;
 }
-.row > input {
+.row input {
     border: none;
+    outline: none;
     height: 3.5rem;
     border-radius: 0.5rem;
     padding: 0 1rem;
+    border: 2px solid #dfd8d8;
+}
+.row.success input {
+    border-color: rgb(8, 236, 8);
+}
+.row.error input {
+    border-color: rgb(255, 0, 0);
+}
+.row input:focus {
+    border-color: black ;
+}
+.row small {
+    visibility: hidden;
+}
+.row.error small {
+    text-align: center;
+    color: red;
+    letter-spacing: 1px;
+    visibility: visible;
 }
 #btn {
     border: none;
