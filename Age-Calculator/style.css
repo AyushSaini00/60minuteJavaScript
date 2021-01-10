@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    font-size: 10px;
+    font-family: 'lato', Arial, Helvetica, sans-serif;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 40rem;
+    min-width: 30rem;
+    align-items: center;
+}
+.container label {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.container #dob {
+    margin-bottom: 3rem;
+}
+.container .desc {
+    font-size: 2rem;
+    margin-bottom: 4rem;
+}
+.container .age {
+    font-size: 3rem;
+}
+.container .age > span {
+    font-weight: bold;
+}
