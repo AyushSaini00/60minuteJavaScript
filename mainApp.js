@@ -68,6 +68,11 @@ const projects = [
         index: '14',
         name : "HTML-Canvas",
         code : "https://github.com/AyushSaini00/60minuteJavaScript/tree/main/HTML-Canvas"
+    },
+    {
+        index: '15',
+        name : "Age-Calculator",
+        code : "https://github.com/AyushSaini00/60minuteJavaScript/tree/main/Age-Calculator"
     }
 ];
 
