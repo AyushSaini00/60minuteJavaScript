@@ -73,6 +73,11 @@ const projects = [
         index: '15',
         name : "Age-Calculator",
         code : "https://github.com/AyushSaini00/60minuteJavaScript/tree/main/Age-Calculator"
+    },
+    {
+        index: '16',
+        name : "Form-Validation",
+        code : "https://github.com/AyushSaini00/60minuteJavaScript/tree/main/Form-Validation"
     }
 ];
 
