@@ -9,5 +9,77 @@ body {
     font-family: 'lato',Arial, Helvetica, sans-serif;
 }
 body {
-    
+    background: #f0f0f0;
+    color: black;
+    min-height: 100vh;
+}
+header {
+    font-size: 2rem;
+}
+header,
+form {
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form input,
+form button {
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: none;
+    background: black;
+}
+.todo-input {
+    color: white;
+}
+.todo-btn {
+    cursor: pointer;
+    padding: 0.35rem;
+    border-left: 1px solid white;
+    transition: background 0.2s ease;
+}
+.todo-btn:hover {
+    background: #6b25d2;
+}
+.todo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todo-list {
+    min-width: 32rem;
+    width: 50vw;
+    list-style: none;
+}
+.todo {
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    background: white;
+    transition: all 0.3s ease;
+}
+.todo button {
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    font-size: 2rem;
+    transition: transform 0.2s ease;
+}
+.todo button:hover {
+    transform: scale(1.1);
+}
+.todo li {
+    flex: 1;
+}
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+.fall {
+    transform: translateY(10rem) rotateZ(20deg);
+    opacity: 0;
 }
