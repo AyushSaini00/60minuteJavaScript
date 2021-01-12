@@ -78,6 +78,11 @@ const projects = [
         index: '16',
         name : "Form-Validation",
         code : "https://github.com/AyushSaini00/60minuteJavaScript/tree/main/Form-Validation"
+    },
+    {
+        index: '17',
+        name : "Todo-List",
+        code : "https://github.com/AyushSaini00/60minuteJavaScript/tree/main/Todo-List"
     }
 ];
 
