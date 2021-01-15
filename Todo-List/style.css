@@ -79,7 +79,7 @@ form button {
     text-decoration: line-through;
     opacity: 0.5;
 }
-.fall {
-    transform: translateY(10rem) rotateZ(20deg);
+.fade-away {
+    transform: translateX(10rem);
     opacity: 0;
 }
