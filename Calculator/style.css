@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --bg : #22252d;
+    --btn-bg : #272b33;
+    --btn-green : #26f7d1;
+    --btn-red : #ff1214;
+    --controls-bg : #292d36;
+}
+html,
+body {
+    font-size: 10px;
+    font-family: 'lato', Arial, Helvetica, sans-serif;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e3e3e3;
+}
+.container {
+    width: 28rem;
+    height: 50rem;
+    background-color:var(--bg);
+    border-radius: 2rem;
+}
+.screen {
+    height: 35%;
+    color: white;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding: 2rem;
+}
+.result {
+    font-size: 4rem;
+}
+.controls {
+    height: 65%;
+    background: var(--controls-bg);
+    border-radius: 2rem;
+    padding: 2rem;
+}
+.btn-row {
+    display: flex;
+    justify-content: space-between;
+}
+button {
+    background-color: var(--btn-bg);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: 0.4rem;
+    width: 5rem;
+    font-size: 2.2rem;
+    margin-bottom: 1.3rem;
+    transition: background-color 0.2s ease;
+}
+button:hover,
+button:active {
+    background-color: #20232b;
+}
+.btn-green {
+    color: var(--btn-green);
+}
+.btn-red {
+    color: var(--btn-red);
+}
