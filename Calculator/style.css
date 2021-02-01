@@ -32,12 +32,19 @@ body {
     height: 35%;
     color: white;
     display: flex;
+    flex-direction: column;
     justify-content: end;
     align-items: end;
     padding: 2rem;
+    letter-spacing: 1.5px;
+}
+.calc {
+    font-size: 1.6rem;
 }
 .result {
-    font-size: 4rem;
+    font-size: 3rem;
+    word-break: break-all;
+    word-wrap: break-word;
 }
 .controls {
     height: 65%;
@@ -60,6 +67,7 @@ button {
     font-size: 2.2rem;
     margin-bottom: 1.3rem;
     transition: background-color 0.2s ease;
+    outline: none; /* Bad for assesibility */
 }
 button:hover,
 button:active {
@@ -67,6 +75,9 @@ button:active {
 }
 .btn-green {
     color: var(--btn-green);
+}
+.btn-green.clear {
+    width: 11.2rem;
 }
 .btn-red {
     color: var(--btn-red);

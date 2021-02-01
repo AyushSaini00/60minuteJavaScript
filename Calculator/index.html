@@ -9,37 +9,38 @@
 <body>
     <div class="container">
         <div class="screen">
-            <p class="result">9000</p>
+            <p data-calc class="calc"></p>
+            <p data-result class="result"></p>
         </div>
         <div class="controls">
             <div class="btn-row">
-                <button class="btn-green">AC</button>
-                <button class="btn-green">%</button>
-                <button class="btn-red">÷</button>
+                <button data-operation="all-clear" class="btn-green clear">AC</button>
+                <button data-operation="percentage" class="btn-green">%</button>
+                <button data-operation="divide" class="btn-red">÷</button>
             </div>
             <div class="btn-row">
-                <button>7</button>
-                <button>8</button>
-                <button>9</button>
-                <button class="btn-red">×</button>
+                <button data-number>7</button>
+                <button data-number>8</button>
+                <button data-number>9</button>
+                <button data-operation="multiply" class="btn-red">×</button>
             </div>
             <div class="btn-row">
-                <button>4</button>
-                <button>5</button>
-                <button>6</button>
-                <button class="btn-red">−</button>
+                <button data-number>4</button>
+                <button data-number>5</button>
+                <button data-number>6</button>
+                <button data-operation="minus" class="btn-red">−</button>
             </div>
             <div class="btn-row">
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
-                <button class="btn-red">+</button>
+                <button data-number>1</button>
+                <button data-number>2</button>
+                <button data-number>3</button>
+                <button data-operation="plus" class="btn-red">+</button>
             </div>
             <div class="btn-row">
-                <button>←</button>
-                <button>0</button>
-                <button>.</button>
-                <button class="btn-red">=</button>
+                <button data-operation="back">←</button>
+                <button data-number>0</button>
+                <button data-number>.</button>
+                <button data-operation="equals" class="btn-red">=</button>
             </div>
         </div>
     </div>
