@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    font-size: 10px;
+    font-family: 'lato', Arial, Helvetica, sans-serif;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(0deg, #ffd42f, #d3aeff);
+    width: 30rem;
+    height: 50rem;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+.title {
+    font-size: 4rem;
+}
+.track-title {
+    font-size: 3rem;
+    margin-bottom: -5rem;
+}
+.track-artist {
+    font-size: 1.7rem;
+}
