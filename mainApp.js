@@ -83,6 +83,16 @@ const projects = [
         index: '17',
         name : "Todo-List",
         code : "https://github.com/AyushSaini00/60minuteJavaScript/tree/main/Todo-List"
+    },
+    {
+        index: '18',
+        name : "Calculator",
+        code : "https://github.com/AyushSaini00/60minuteJavaScript/tree/main/Calculator"
+    },
+    {
+        index: '19',
+        name : "Code-Music",
+        code : "https://github.com/AyushSaini00/60minuteJavaScript/tree/main/Code-Music"
     }
 ];
 
