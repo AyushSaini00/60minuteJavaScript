@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body {
+    font-size: 10px;
+    font-family: 'lato', Arial, Helvetica, sans-seri;
+}
+body {
+    background: #fff;
+    color: black;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease;
+}
+.title {
+    font-size: 5rem;
+}
+.btn {
+    font-size: 3rem;
+    cursor: pointer;
+}
+.btn::before{
+    content: '🖤';
+}
+body.dark {
+    color: #a8acb0;
+    background: #1b1f23;
+    transition: all 0.5s ease;
+}
+body.dark .btn::before{
+    content: '💡';
+}
