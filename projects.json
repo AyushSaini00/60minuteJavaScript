@@ -98,5 +98,10 @@
         "index": "20",
         "name": "Pomodoro-Timer",
         "code": "https://github.com/AyushSaini00/60minuteJavaScript/tree/main/Pomodoro-Timer"
+    },
+    {
+        "index": "21",
+        "name": "Dark-Mode",
+        "code": "https://github.com/AyushSaini00/60minuteJavaScript/tree/main/Dark-Mode"
     }
 ]
