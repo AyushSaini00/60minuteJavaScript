@@ -14,6 +14,7 @@ body {
     justify-content: center;
     align-items: center;
     background: #151b37;
+    flex-direction: column;
 }
 .container {
     background:linear-gradient(90deg, #020c22, #4e253c);
@@ -30,7 +31,8 @@ body {
     font-size: 2.5rem;
 }
 .title,
-.timer {
+.timer,
+.footer {
     background: #9867f0;
     background: -webkit-linear-gradient(to right, #9867f0 0%, #d5557c 50%);
     background: -moz-linear-gradient(to right, #9867f0 0%, #d5557c 50%);
@@ -67,4 +69,13 @@ body {
 }
 .btn:hover {
     opacity: 0.8;
+}
+.footer {
+    font-size: 1.2rem;
+    position: relative;
+    bottom: -2rem;
+    letter-spacing: 1px;
+}
+.footer > a {
+    text-decoration: none;
 }
