@@ -93,5 +93,10 @@
         "index": "19",
         "name": "Code-Music",
         "code": "https://github.com/AyushSaini00/60minuteJavaScript/tree/main/Code-Music"
+    },
+    {
+        "index": "20",
+        "name": "Pomodoro-Timer",
+        "code": "https://github.com/AyushSaini00/60minuteJavaScript/tree/main/Pomodoro-Timer"
     }
 ]
