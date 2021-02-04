@@ -19,6 +19,8 @@ body {
 }
 .title {
     font-size: 5rem;
+    text-align: center;
+    margin-bottom: 3rem;
 }
 .btn {
     font-size: 3rem;
