@@ -25,7 +25,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 30rem;
     height: 80vh;
     text-align: center;
     padding: 1.5rem;
@@ -36,12 +35,14 @@ body {
 }
 .row {
     display: flex;
-    width: 100%;
     justify-content: space-between;
     background: linear-gradient(315deg, #89dbb9 0%, #cbcedb 74%);
     height: 5rem;
     padding: 1rem;
     border-radius: 0.5rem;
+}
+input {
+    margin-right: 2rem;
 }
 input,
 select {
@@ -66,7 +67,6 @@ select {
 }
 #rate-detail {
     font-size: 1.8rem;
-    font-weight: lighter;
 }
 .footer {
     font-size: 1.2rem;
