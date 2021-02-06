@@ -10,8 +10,9 @@
     <div class="container">
         <h1 class="title">Currency Converter</h1>
         <div class="row">
-            <input type="number" name="currency-1" id="currency-1">
+            <input type="number" name="currency-1" id="currency-1" step="any">
             <select name="currency-1" id="select-currency-1">
+                <option value="EUR">EUR</option>
                 <option value="CAD">CAD</option>
                 <option value="HKD">HKD</option>
                 <option value="ISK">ISK</option>
@@ -38,7 +39,7 @@
                 <option value="NOK">NOK</option>
                 <option value="NZD">NZD</option>
                 <option value="ZAR">ZAR</option>
-                <option value="USD">USD</option>
+                <option value="USD" selected>USD</option>
                 <option value="MXN">MXN</option>
                 <option value="ILS">ILS</option>
                 <option value="GBP">GBP</option>
@@ -46,10 +47,10 @@
                 <option value="MYR">MYR</option>
             </select>
         </div>
-        <button id="btn">Convert</button>
         <div class="row">
-            <input type="number" name="currency-2" id="currency-2">
+            <input type="number" name="currency-2" id="currency-2" step="any">
             <select name="currency-2" id="select-currency-2">
+                <option value="EUR">EUR</option>
                 <option value="CAD">CAD</option>
                 <option value="HKD">HKD</option>
                 <option value="ISK">ISK</option>
@@ -61,7 +62,7 @@
                 <option value="RON">RON</option>
                 <option value="SEK">SEK</option>
                 <option value="IDR">IDR</option>
-                <option value="INR">INR</option>
+                <option value="INR" selected>INR</option>
                 <option value="BRL">BRL</option>
                 <option value="RUB">RUB</option>
                 <option value="HRK">HRK</option>
@@ -84,9 +85,7 @@
                 <option value="MYR">MYR</option>
             </select>
         </div>
-        <div id="rate-detail">
-            1 EUR = 87.6185 INR
-        </div>
+        <div id="rate-detail"></div>
     </div>
     <p class="footer">This project is a part of <a href="https://60minutejs.vercel.app/">60 Minute javascript</a></p>
     <script src="./app.js" type="text/javascript"></script>
