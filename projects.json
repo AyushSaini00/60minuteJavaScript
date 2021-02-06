@@ -103,5 +103,10 @@
         "index": "21",
         "name": "Dark-Mode",
         "code": "https://github.com/AyushSaini00/60minuteJavaScript/tree/main/Dark-Mode"
+    },
+    {
+        "index": "22",
+        "name": "Currency-Converter",
+        "code": "https://github.com/AyushSaini00/60minuteJavaScript/tree/main/Currency-Converter"
     }
 ]
