@@ -87,10 +87,16 @@ footer {
   background-color: #202020;
   color: #fff;
   padding: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 footer > span {
   color: #ff0000;
 }
 footer > a {
   color: #fff;
+}
+footer > object {
+  width: 26px;
 }
