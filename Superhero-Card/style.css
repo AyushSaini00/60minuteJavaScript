@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    font-size: 10px;
+    font-family: 'lato', Arial, Helvetica, sans-serif;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+}
+.container {
+    width: 30rem;
+    height: 50rem;
+    border-radius: 1rem;
+    border: 0.7rem solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.name {
+    font-size: 2rem;
+    font-weight: bold;
+    background: black;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0 0 1rem 0;
+    align-self: self-start;
+}
+.full-name {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+/*setting width and height of the img in case img doesn't load,
+i want the alt text to aquire the same area*/
+.img {
+    width: 16rem; 
+    height: 24rem;
+    border-radius: 5px;
+}
+.powerstats-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline black;
+}
+.powerstats-wrapper { display: flex; }
+dl { margin: 1rem 2rem; }
+dt { font-size: 1.5rem; }
+dd {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.publisher {
+    font-size: 2rem;
+    letter-spacing: 1px;
+    background: black;
+    color: white;
+    padding: 0.5rem 2rem;
+    align-self: end;
+    border-radius: 3rem 0 0 0px;
+}
