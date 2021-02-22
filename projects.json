@@ -108,5 +108,10 @@
         "index": "22",
         "name": "Currency-Converter",
         "code": "https://github.com/AyushSaini00/60minuteJavaScript/tree/main/Currency-Converter"
+    },
+    {
+        "index": "23",
+        "name": "Superhero-Card",
+        "code": "https://github.com/AyushSaini00/60minuteJavaScript/tree/main/Superhero-Card"
     }
 ]
