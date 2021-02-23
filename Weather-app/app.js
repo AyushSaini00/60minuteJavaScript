@@ -1,7 +1,7 @@
 //Api and other consts
 
 const myApi = {
-    //***Please use your own Api key if you're using or referencing this code****/
+    /****Please use your own Api key if you're using or referencing this code****/
     key: "24d26e86cc84b567c2140ceb9c8a7861",
     proxy : 'https://cors-anywhere.herokuapp.com/'
 };
@@ -41,11 +41,10 @@ function setPosition(position) {
   getWeather(myLatitude, myLongitude);
 }
 
-//GET WEATHER 
-
+//GET WEATHER
+ 
 function getWeather(myLat, myLong){
     let link = `${myApi.proxy}https://api.openweathermap.org/data/2.5/weather?lat=${myLat}&lon=${myLong}&appid=${myApi.key}`;
-    // console.log(link);
     fetch(link)  //send a network request and get the information from the server
         .then(response => { 
             let data = response.json(); //now whatever response we get, parse it into json and store in data
@@ -82,7 +81,7 @@ function celsiusToFahrenheit(temp){
 // WHEN THE USER CLICKS ON THE TEMPERATURE ELEMENET
 function toggleUnits(){
     if(weather.temperature.value === undefined){ 
-        //if the valur is undefined then simply come out of the fuction
+        //if the value is undefined then simply come out of the fuction
         return;
     }
     if(weather.temperature.unit === 'celsius'){
@@ -94,5 +93,4 @@ function toggleUnits(){
         weather.temperature.unit = 'celsius';
     }    
 }
-
 tempElement.addEventListener('click', toggleUnits);
