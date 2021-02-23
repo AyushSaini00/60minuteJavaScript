@@ -68,3 +68,10 @@ dd {
     align-self: end;
     border-radius: 3rem 0 0 0px;
 }
+.footer {
+    font-size: 1.2rem;
+    position: relative;
+    bottom: -2rem;
+    letter-spacing: 1px;
+}
+.footer > a { text-decoration: none; }
