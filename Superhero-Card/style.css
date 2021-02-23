@@ -38,6 +38,7 @@ body {
     font-size: 1.5rem;
     font-weight: lighter;
     letter-spacing: 1px;
+    min-height: 1.8rem;
 }
 /*setting width and height of the img in case img doesn't load,
 i want the alt text to aquire the same area*/
