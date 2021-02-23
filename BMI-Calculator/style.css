@@ -4,9 +4,7 @@
     box-sizing: border-box;
 }
 *::before,
-*::after {
-    box-sizing: border-box;
-}
+*::after { box-sizing: border-box; }
 html,
 body {
     font-size: 10px;
@@ -32,9 +30,7 @@ body {
     justify-content: space-between;
     padding: 1rem;
 }
-.container .title {
-    font-size: 2.2rem;
-}
+.container .title { font-size: 2.2rem; }
 .weight-wrapper,
 .height-wrapper {
     display: flex;
@@ -66,11 +62,10 @@ body {
     justify-content: center;
     align-items: center;
     border: 1rem solid #2ca1bc;
+    transition: border-color 0.3s ease-in-out;
 }
 .desc {
     font-size: 1.5rem;
     margin-top: 2rem;
 }
-.bmi-category {
-    font-weight: bold;
-}
+.bmi-category { font-weight: bold; }
