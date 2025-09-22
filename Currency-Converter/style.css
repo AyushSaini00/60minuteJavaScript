@@ -53,3 +53,19 @@ select {
     letter-spacing: 1px;
 }
 .footer > a { text-decoration: none; }
+
+/* Swap button styling */
+.swap-btn {
+    margin: 1rem 0;
+    padding: 0.6rem 1.2rem;
+    font-size: 1.6rem;
+    border: none;
+    border-radius: 0.6rem;
+    background: #035d66;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    transition: transform 0.1s ease, opacity 0.2s ease, background 0.2s ease;
+}
+.swap-btn:hover { background: #047481; }
+.swap-btn:active { transform: scale(0.98); opacity: 0.9; }

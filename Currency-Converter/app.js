@@ -3,6 +3,7 @@ const selectCurrency1 = document.getElementById('select-currency-1');
 const currency2InputElem = document.getElementById('currency-2');
 const selectCurrency2 = document.getElementById('select-currency-2');
 const rateDetail = document.getElementById('rate-detail');
+const swapBtn = document.getElementById('swap-btn');
 
 calc();
 
@@ -36,3 +37,21 @@ currency2InputElem.addEventListener('input', calc);
 
 selectCurrency1.addEventListener('change', calc);
 selectCurrency2.addEventListener('change', calc);
+
+// Swap currencies and values
+if (swapBtn) {
+    swapBtn.addEventListener('click', () => {
+        // swap selected currencies
+        const tmpCurrency = selectCurrency1.value;
+        selectCurrency1.value = selectCurrency2.value;
+        selectCurrency2.value = tmpCurrency;
+
+        // swap input values (so the perspective switches intuitively)
+        const tmpValue = currency1InputElem.value;
+        currency1InputElem.value = currency2InputElem.value;
+        currency2InputElem.value = tmpValue;
+
+        // recalculate with new base
+        calc();
+    });
+}
